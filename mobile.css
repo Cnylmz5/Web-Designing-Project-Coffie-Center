@@ -32,6 +32,12 @@
     }
 }
 @media (max-width:700px){
+     #nav .nav-items .nav-button ul li{
+        display: none;
+    }
+    #burger{
+        display: block; 
+    }
     #header .header-items .header-contant ul li a,i{
         font-size: 0.7rem;
     }
@@ -105,12 +111,7 @@
         display: none;
     }
    
-    #nav .nav-items .nav-button ul li{
-        display: none;
-    }
-    #burger{
-        display: block; 
-    }
+   
     #nav .nav-items .logo h1{
         margin-top: 1rem;
         font-size: 1.4rem;
