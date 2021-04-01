@@ -1,0 +1,166 @@
+@media (max-width:1100px){
+    #kind .kind-item .kind-img img{
+        width: 300px;
+    }
+}
+@media (max-width:1000px){
+    #kind .kind-item .kind-img img{
+        width: 300px;
+    }
+    #kind .kind-item .kind-text{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:950px){
+    #kind .kind-item .kind-img img{
+        width: 250px;
+    }
+}
+@media (max-width:800px){
+    #kind .kind-item .kind-img img{
+        width: 200px;
+    }
+    #kind .kind-item .kind-text{
+        font-size: 0.6rem;
+    }
+    #location .location-items{
+        display: flex;
+        flex-direction: column;
+    }
+    #location .location-items .location-main{
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:700px){
+    #header .header-items .header-contant ul li a,i{
+        font-size: 0.7rem;
+    }
+    #header .header-items .header-menu ul li a{
+        font-size: 0.7rem;
+    }
+    #nav .nav-items .nav-button ul li a{
+        font-size: 0.9rem;
+    }
+    #service .services{
+        display: flex;
+        flex-direction: column;
+    }
+    #service .services .service{
+        margin-bottom: 1.5rem;
+    }
+    #kind .kind-item{
+        display: flex;
+        flex-direction: column;
+    }
+    #kind .kind-item .kind-img img{
+        width: 350px;
+    }
+    #kind .kind-item .kind-text{
+        font-size: 0.9rem;
+    }
+    #kind .kind-item .kind-img{
+        text-align: center;
+    }
+    #kind .kind-header{
+        text-align: center;
+    }
+}
+@media (max-width:580px){
+    #header .header-items .header-contant ul li a,i{
+        font-size: 0.6rem;
+    }
+    #header .header-items .header-menu ul li a{
+        font-size: 0.6rem;
+    }
+    #nav .nav-items .nav-button ul li a{
+        font-size: 0.8rem;
+    }
+    .main-class{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:585px){
+    #header .header-items .header-contant ul li a,i{
+        font-size: 0.6rem;
+    }
+    #header .header-items .header-menu ul li a{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width:555px){
+    #header .header-items{
+        margin-top: 2rem;
+    }
+    #header .header-items .header-menu{
+        margin-top: 2rem;
+        margin: 0 auto;
+    }
+    #header .header-items .header-contant{
+        display: none;
+    }
+   
+    #nav .nav-items .nav-button ul li{
+        display: none;
+    }
+    #burger{
+        display: block; 
+    }
+    #nav .nav-items .logo h1{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    #head .head-items p span{
+        margin-top: 5rem;
+    }
+    #head .head-items{
+        margin-top: 4rem;
+    }
+    #head .head-items h3{
+        font-size: 1.3rem;
+        margin-right: 0.2rem;
+        margin-bottom: 1rem;
+    }
+    #head .head-items h2{
+        font-size: 1.8rem;
+        margin-right: 0.2rem;
+        margin-bottom: 1rem;
+    }
+    .head-buttons p{
+        margin-top: 7rem;
+    }
+    #main{
+        margin-top: 10rem;
+    }
+    #map iframe{
+        width: 300px;
+        height: 200px;
+    }
+   
+}
+@media (max-width:500px){
+
+}
+@media (max-width:400px){
+    #kind .kind-item .kind-img img{
+        width: 250px;
+    }
+    #map iframe{
+        width: 200px;
+        height: 100px;
+    }
+}
+@media (max-width:380px){
+    #main .main-img img{
+        width: 200px;
+        height: auto;
+    }
+    #service .services .service{
+        display: flex;
+        flex-direction: column;
+    }
+    #service .services .service .service-logo{
+        margin-bottom: 1rem;
+    }
+}
