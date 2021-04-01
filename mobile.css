@@ -64,6 +64,10 @@
     #kind .kind-header{
         text-align: center;
     }
+    #main .main-class{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width:580px){
     #header .header-items .header-contant ul li a,i{
