@@ -166,6 +166,7 @@ li{
     color: #1e1e1e8c;
     background-color: #fff;
     box-shadow: 5px 2px 2px 1px #1e1e1e8c;
+    cursor: pointer;
 }
 .head-buttons{
     display: flex;
